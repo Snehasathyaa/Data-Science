@@ -71,3 +71,31 @@ Time: 0.0 secs
 [1] No No
 Levels: No Yes
 > 
+
+ssTable(person_test_labels, person_pred, prop.chisq=FALSE )
+
+ 
+   Cell Contents
+|-------------------------|
+|                       N |
+|         N / Table Total |
+|-------------------------|
+
+ 
+Total Observations in Table:  2 
+
+ 
+                   | person_pred 
+person_test_labels |        No | Row Total | 
+-------------------|-----------|-----------|
+                No |         1 |         1 | 
+                   |     0.500 |           | 
+-------------------|-----------|-----------|
+               Yes |         1 |         1 | 
+                   |     0.500 |           | 
+-------------------|-----------|-----------|
+      Column Total |         2 |         2 | 
+-------------------|-----------|-----------|
+
+
+
